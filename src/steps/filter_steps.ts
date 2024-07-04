@@ -12,3 +12,4 @@ When('the user should see the first item with the lowest price {string}', async 
 Then('the user should see the last item with the highest price {string}', async function (highprice: string) {
     await expect(this.page.locator('[data-test="inventory-list"]')).toContainText(highprice);
 })
+
