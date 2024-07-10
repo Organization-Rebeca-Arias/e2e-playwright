@@ -2,7 +2,7 @@ Feature: Login SauceLabs web page
     
     Background: 
      Given the user is on saucelabs login page
-
+    @login @validlogin
     Scenario: Login with valid credentials
         When the user fills username field with "standard_user"
         And the user fills password field with "secret_sauce"

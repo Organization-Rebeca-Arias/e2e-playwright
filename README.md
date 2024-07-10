@@ -3,10 +3,17 @@
 > Typescript and Playwright with Cucumber e2e testing project.
 
 ### 💻 Description
-E2e tests for https://bootcamp-qa.com
+E2e tests for https://www.saucedemo.com/
 
 Covered Features:
 - Visit Home Page
+- Login Home page
+- Logout Home page
+- Order products by filter
+- Add items to the cart
+- Remove items from the cart
+- Navigate to the checkout page
+- Navigate from the checkout page to the cart page
 
 
 - ## 💻 Pre-requisites
